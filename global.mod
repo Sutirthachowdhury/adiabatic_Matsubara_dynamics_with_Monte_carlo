@@ -1,0 +1,107 @@
+GFORTRAN module version '10' created from /scratch/schowdh4/mapping-rpmd/1d_mat_code/mc_version_withfft/with_montecarlo/global.f90
+MD5:5185bf506dec398367390dafb3b66fe9 -- If you edit this, you'll get what you deserve.
+
+(() () () () () () () () () () () () () () () () () () () () () () () ()
+() () ())
+
+()
+
+()
+
+()
+
+()
+
+()
+
+(2 '__convert_c4_c8' '(intrinsic)' '' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 FUNCTION ELEMENTAL PURE) (COMPLEX 8 0 0
+0 COMPLEX ()) 0 0 () () 2 () () () 0 0)
+3 '__convert_r4_r8' '(intrinsic)' '' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 FUNCTION ELEMENTAL PURE) (REAL 8 0 0 0
+REAL ()) 0 0 () () 3 () () () 0 0)
+4 'a_4' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+4 0 DEFERRED () () () () () () () ()) 0 () () () 0 0)
+5 'acos' '(intrinsic)' '' 1 ((PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 FUNCTION) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 5 ()
+() () 0 0)
+6 'beta' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+7 'betap' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+8 'del' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (2 0 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 0
+INTEGER ()) 0 '2') (CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '2')) 0 () () () 0 0)
+9 'delta' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+10 'dt' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+11 'eye' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (COMPLEX 8 0 0 0 COMPLEX ()) 0 0 () (CONSTANT (
+COMPLEX 8 0 0 0 COMPLEX ()) 0 '0.00000000000000@0' '0.10000000000000@1')
+() 0 () () () 0 0)
+12 'global' 'global' '' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (UNKNOWN 0 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+13 'hbar' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () (CONSTANT (REAL 8 0 0 0
+REAL ()) 0 '0.10000000000000@1') () 0 () () () 0 0)
+14 'lb_m' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '-1') () 0 () () () 0 0)
+15 'mats_mode' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+16 'mnuc' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (REAL 8 0 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+17 'nb' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '115') () 0 () () () 0 0)
+18 'ndof' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+19 'neq' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+20 'nmc' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+21 'nosc' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+22 'nsample' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0
+0)
+23 'nskip' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+24 'nstate' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (
+CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+25 'nstep' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+26 'ntraj' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+27 'omega' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (1 0 EXPLICIT (
+CONSTANT (INTEGER 4 0 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 0
+INTEGER ()) 0 '1')) 0 () () () 0 0)
+28 'ourseed' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+29 'pi' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (REAL 4 0 0 0 REAL ()) 0 0 () (CONSTANT (REAL 4 0 0 0
+REAL ()) 0 '0.3243f6c@1') () 0 () () () 0 0)
+30 'step' 'global' '' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0 ALLOCATABLE DIMENSION) (REAL 8 0 0 0 REAL ()) 0 0 () (
+1 0 DEFERRED () ()) 0 () () () 0 0)
+31 'ub_m' 'global' '' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+)
+
+('__convert_c4_c8' 0 2 '__convert_r4_r8' 0 3 'a_4' 0 4 'acos' 0 5 'beta'
+0 6 'betap' 0 7 'del' 0 8 'delta' 0 9 'dt' 0 10 'eye' 0 11 'global' 0 12
+'hbar' 0 13 'lb_m' 0 14 'mats_mode' 0 15 'mnuc' 0 16 'nb' 0 17 'ndof' 0
+18 'neq' 0 19 'nmc' 0 20 'nosc' 0 21 'nsample' 0 22 'nskip' 0 23 'nstate'
+0 24 'nstep' 0 25 'ntraj' 0 26 'omega' 0 27 'ourseed' 0 28 'pi' 0 29
+'step' 0 30 'ub_m' 0 31)
